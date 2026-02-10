@@ -1,5 +1,7 @@
-import 'package:dart_101/dart_101.dart' as dart_101;
+import 'package:dart_101/03_functions/exercise.dart';
 
 void main(List<String> arguments) {
-  print('Hello world: ${dart_101.calculate()}!');
+  final reversedStr = reverseString("ton");
+
+  print(reversedStr);
 }
